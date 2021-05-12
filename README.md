@@ -1,5 +1,16 @@
-# ts-npm-package-boilerplate
+# standard-version-update-openapi3-version
+A hook for updating openapi3 spec file using `standard-version` npm package.
 
-After cloning this template, please do the following:
-1. insert secrets to repo secrets for the github actions.
-2. replace every string "ts-npm-package-boilerplate" with your package name.
+
+# Setup
+Create a file named `.versionrc`
+```json
+{
+  "bumpFiles": [
+    {
+      "filename": "/path/to/openapi3.yml",
+      "updater": "/node_modules/@map-colonies/standard-version-update-openapi3-version/src/index.js"
+    }
+  ]
+}
+```
