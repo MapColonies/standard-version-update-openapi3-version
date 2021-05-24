@@ -1,6 +1,6 @@
 {
   "name": "@map-colonies/standard-version-update-openapi3-version",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "A hook for updating openapi3 spec file",
   "main": "src/index.js",
   "scripts": {
@@ -23,6 +23,9 @@
   "bugs": {
     "url": "https://github.com/MapColonies/standard-version-update-openapi3-version/issues"
   },
+  "files": [
+    "src/index.js"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
