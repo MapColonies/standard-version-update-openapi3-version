@@ -1,6 +1,6 @@
 {
   "name": "@map-colonies/standard-version-update-openapi3-version",
-  "version": "0.0.2-0",
+  "version": "0.0.2",
   "description": "A hook for updating openapi3 spec file",
   "main": "src/index.js",
   "scripts": {
